@@ -1,7 +1,7 @@
 h1 {
   color: Purple;
   text-align: center;
-  font: bold 75px baskerville old face;
+  font: bold 75px bookman old style;
 }
 
 body {
@@ -25,4 +25,8 @@ p {
 }
 h3 {
 	color: Purple;
+}
+h4 {
+	font-style: italic bookman old style;
+	
 }
