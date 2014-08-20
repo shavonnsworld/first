@@ -2,9 +2,10 @@ h1 {
   color: Purple;
   text-align: center;
   font: bold 75px bookman old style;
-  font-family: myFirstFont;
-  src: url(maggie moo);
-  font-weight: bold;
+ @font-face {
+    font-family: myFirstFont;
+    src: url(maggie moo);
+    font-weight: bold
 }
 
 body {
@@ -30,7 +31,7 @@ h3 {
 	color: Purple;
 }
 h4 {
-	font-style: italic bookman old style;
+	font-style: bold italic bookman old style;
 	
 }
 
